@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.first-part{
+    height:70px;
+    width:100%;
+    background-color: black;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgba(255,0,0,0.1));
+}
+
+.first-part p{
+    color:white;
+    padding: 20px 80px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.sec-part{
+    background-image: linear-gradient(to bottom right, rgb(73, 35, 7), rgba(255,255,255,0.4)), url(./coffee.jpg);
+    height:calc(100vh - 70px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec-part h2{
+    color: white;
+    padding-left: 5.5%;
+    padding-top: 5%;
+    font-size: 23px;
+    font-family: Arial;
+    letter-spacing: 2px;  
+}
+
+.sec-part p{
+    color: white;
+    font-size: 19px;
+    padding-left: 5.6%;
+    padding-top: 1.5%;
+}
+
+.sec-part button{
+    border:1px solid white;
+    background: none;
+    color: white;
+    letter-spacing: 2px;
+    padding: 13px;
+    width: 10%;
+    margin-left: 5.7%;
+    margin-top: 2%;
+    cursor: pointer;
+}
